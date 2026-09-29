@@ -1,0 +1,22 @@
+# Repo ini hanya dokumentasi publik.
+# Jangan pernah menambahkan: kode sumber, .env, konfigurasi internal,
+# skema database, laporan audit keamanan, hasil build, atau SDK vendor.
+
+*.env
+*.env.*
+config.ini
+configs/
+build/
+dist/
+node_modules/
+vendor/
+*.exe
+*.dll
+*.zip
+*.rar
+*.7z
+
+.DS_Store
+Thumbs.db
+*.log
+*.bak
