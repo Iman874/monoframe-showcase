@@ -121,6 +121,19 @@ Ringkas ada di [docs/APP_REVIEW.md](docs/APP_REVIEW.md); topologi dan batasan de
 
 Intinya: menjaga mesin tetap melayani saat jaringan putus, tanpa membuat operator kehilangan jejak audit; dan menyatukan tiga dunia (Flutter desktop, Go native, Laravel) yang gagal total kalau satu di antaranya punya asumsi versi yang berbeda — karena itu versi dibangun dari satu sumber kebenaran (`VERSIONS.ini`) dan build tidak pernah dijalankan manual.
 
+## Galeri
+
+Belum diisi. Screenshot perlu diambil langsung dari mesin kios, tidak bisa dirender dari dokumentasi. Letakkan berkasnya di `assets/screenshots/` (daftar nama yang diharapkan ada di `assets/screenshots/README.md`), lalu aktifkan blok di bawah ini.
+
+<!--
+![Landing](assets/screenshots/sc01-landing.png)
+![Pilih jumlah](assets/screenshots/sc03-quantity.png)
+![QRIS](assets/screenshots/sc05-qris.png)
+![Capture](assets/screenshots/sc09-capture.png)
+![Filter AI](assets/screenshots/sc10-ai-filter.png)
+![Dashboard operator](assets/screenshots/admin-dashboard.png)
+-->
+
 ## Status
 
 Aktif dikembangkan. Fase sekarang pengerasan kualitas: audit sesi pelanggan, regenerasi aset yang gagal, normalisasi provider AI, dan pengetatan perilaku offline. Kode ditulis dengan test-first pada area berisiko (puluhan test dijalankan tiap perubahan pada antrean cetak dan sinkronisasi).
