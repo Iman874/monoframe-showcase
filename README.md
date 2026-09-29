@@ -101,7 +101,7 @@ Bukan estimasi — dihitung dari file yang di-track git di masing-masing reposit
 | Test file Flutter | 156 |
 | Test file Laravel | 71 |
 | Repository service | 7, masing-masing dengan branch sendiri |
-| Versi aktif | kontrol kios 0.11.1; layanan cetak/live/video/canon 0.10.x |
+| Versi aktif | kontrol kios 0.11.1; layanan native kios 0.10.x |
 
 Distribusi baris per service:
 
