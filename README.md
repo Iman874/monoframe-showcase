@@ -56,7 +56,7 @@ Tujuh service, lima stack, masing-masing repository dan pipeline build sendiri.
 flowchart TB
     subgraph Kiosk["Mesin kios (Windows)"]
       FL[App Photobox Desktop<br/>Flutter]
-      CORE[Core Services<br/>Go: cetak, live view, video/GIF,<br/>reupload, kontrol & reload]
+      CORE[Core Services<br/>Go: cetak, live view, video/GIF,<br/>reupload, kontrol dan reload]
       CAM[Camera Services<br/>Go: proxy ke SDK kamera]
       AIS[AI Service<br/>Node.js: gateway filter generatif]
       FL --> CORE
@@ -70,7 +70,7 @@ flowchart TB
     BE --> ST[Object storage + CDN]
 
     ADM[Frontend Admin<br/>React, mobile-friendly] --> BE
-    SETUP[Upload & Setup Tool<br/>Go + Wails desktop] --> BE
+    SETUP[Upload dan Setup Tool<br/>Go + Wails desktop] --> BE
 
     style Kiosk fill:#f6f6f6,stroke:#bbb
 ```
